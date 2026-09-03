@@ -80,6 +80,10 @@ export const resumeConfig: ResumeConfig = {
       techs: ['Figma', 'Unity'],
       isHighlighted: true,
       details: {
+        context: {
+          fr: 'Studio de jeu vidéo à Marseille.',
+          en: 'Video game studio in Marseille.',
+        },
         tasks: {
           fr: [
             'Responsable de la conception, de la qualité et de la production dans les délais impartis des éléments d\'interface utilisateur pour le jeu.',
@@ -87,6 +91,10 @@ export const resumeConfig: ResumeConfig = {
           en: [
             'Responsible for the design, quality, and timely production of user interface elements for the game.',
           ],
+        },
+        env: {
+          fr: 'Figma / Unity',
+          en: 'Figma / Unity',
         },
       },
     },
@@ -102,6 +110,10 @@ export const resumeConfig: ResumeConfig = {
       },
       techs: ['Unity', 'Figma', 'Photoshop'],
       details: {
+        context: {
+          fr: 'Studio de développement à Lyon.',
+          en: 'Development studio in Lyon.',
+        },
         tasks: {
           fr: [
             'Réalisation de wireframes et production des assets graphiques jusqu\'à leur intégration sur le moteur Unity',
@@ -111,6 +123,10 @@ export const resumeConfig: ResumeConfig = {
             'Creation of wireframes and graphic assets up to integration into the Unity engine',
             'Asset optimization and multi-input support (KBM / Pad)',
           ],
+        },
+        env: {
+          fr: 'Unity / Figma / Photoshop',
+          en: 'Unity / Figma / Photoshop',
         },
       },
     },
@@ -126,6 +142,10 @@ export const resumeConfig: ResumeConfig = {
       },
       techs: ['Photoshop', 'Illustrator', 'Twitch'],
       details: {
+        context: {
+          fr: 'Studio à Nîmes et activités en freelance.',
+          en: 'Studio in Nîmes and freelance activities.',
+        },
         tasks: {
           fr: [
             'Stagiaire 2D Artiste et UI design sur My Universe: My Baby : amélioration des parcours utilisateurs, du polissage visuel et de l\'accessibilité des interfaces',
@@ -135,6 +155,10 @@ export const resumeConfig: ResumeConfig = {
             '2D Artist and UI design intern on My Universe: My Baby: improved user journeys, visual polishing, and interface accessibility',
             'Freelance & Graphic Designer: various services for 2-3 indie studios (Branding, Overlays, Alerts, Emotes, Badges, etc.)',
           ],
+        },
+        env: {
+          fr: 'Photoshop / Illustrator / Twitch',
+          en: 'Photoshop / Illustrator / Twitch',
         },
       },
     },
