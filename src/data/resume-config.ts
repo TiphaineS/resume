@@ -2,193 +2,188 @@ import type { ResumeConfig } from './types'
 
 export const resumeConfig: ResumeConfig = {
   personal: {
-    name: "Tiphaine Sola",
-    photoBackEmoji: "🎮",
+    name: 'Tiphaine Sola',
+    // photo : auto-détectée depuis public/images/ — ne pas renseigner ici
+    photoBackEmoji: '🎮',
     title: {
-      fr: "UI / UX Game Designer",
+      fr: 'UI/UX Game Designer',
+      en: 'UI/UX Game Designer',
     },
     subtitle: {
-      fr: "5+ ans d'expérience",
+      fr: 'Plus de 5 ans d\'expérience dans l\'industrie du jeu vidéo',
+      en: 'Over 5 years of experience in the video game industry',
     },
-    location: "France",
+    location: 'Marseille, France',
   },
   seo: {
-    title: "Tiphaine Sola — UI/UX Game Designer",
-    description: "CV interactif de Tiphaine Sola, UI/UX Game Designer spécialisée dans la création d'interfaces immersives et accessibles pour le jeu vidéo.",
+    title: 'Tiphaine Sola — UI/UX Game Designer',
+    description: 'CV interactif de Tiphaine Sola, UI/UX Game Designer spécialisée dans l\'ergonomie des menus et l\'immersion.',
   },
   languages: {
-    default: "fr",
-    available: ["fr"],
-    labels: { fr: "FR" },
+    default: 'fr',
+    available: ['fr', 'en'],
+    labels: { fr: 'FR', en: 'EN' },
   },
   contact: [
-    { type: "website", label: "Portfolio", href: "https://tsola1.wixsite.com/" },
-    { type: "email", label: "tsola@artfx.fr" },
-    { type: "phone", label: "+33 6 10 30 68 89" },
+    { type: 'website', label: 'tsola1.wixsite.com', href: 'https://tsola1.wixsite.com' },
+    { type: 'email', label: 'tsola@artfx.fr' },
+    { type: 'phone', label: '+33 6 10 30 68 89' },
+    { type: 'location', label: 'Marseille, France' },
   ],
   skills: [
     {
-      title: { fr: "Langues" },
-      type: "languages",
+      title: { fr: 'Langues', en: 'Languages' },
+      type: 'languages',
       items: [
-        { name: { fr: "Français" }, level: { fr: "Natif" } },
-        { name: { fr: "Anglais" }, level: { fr: "Professionnel (B2)" } },
+        { name: { fr: 'Français', en: 'French' }, level: { fr: 'Natif', en: 'Native' } },
+        { name: { fr: 'Anglais', en: 'English' }, level: { fr: 'Bilingue', en: 'Bilingual' } },
       ],
     },
     {
-      title: { fr: "Design & UI/UX" },
-      type: "badges",
+      title: { fr: 'Design & UI', en: 'Design & UI' },
+      type: 'badges',
       items: [
-        { name: "Figma" },
-        { name: "Photoshop" },
-        { name: "Illustrator" },
-        { name: "After Effects" },
+        { name: 'Figma' },
+        { name: 'Photoshop' },
+        { name: 'Illustrator' },
+        { name: 'After Effects' },
       ],
     },
     {
-      title: { fr: "Moteurs & Intégration" },
-      type: "badges",
+      title: { fr: 'Moteurs & Outils', en: 'Engines & Tools' },
+      type: 'badges',
       items: [
-        { name: "Unity" },
+        { name: 'Unity' },
+        { name: 'Trello' },
+        { name: 'Jira' },
       ],
     },
     {
-      title: { fr: "Gestion & Suivi" },
-      type: "badges",
+      title: { fr: 'Compétences', en: 'Skills' },
+      type: 'text',
       items: [
-        { name: "Jira" },
-        { name: "Trello" },
-      ],
-    },
-    {
-      title: { fr: "Spécialités" },
-      type: "text",
-      items: [
-        { name: { fr: "Wireframing, Ergonomie, Design Systems, Polissage visuel, Accessibilité, Support multi-input (KBM/Pad)" } },
+        { name: { fr: 'Wireframes, Design System, Intégration d\'interfaces, Ergonomie des menus', en: 'Wireframes, Design System, UI Integration, Menu Ergonomics' } },
       ],
     },
   ],
   experiences: [
     {
-      id: "cross-the-ages",
-      company: { fr: "Cross the Ages" },
-      role: { fr: "Lead UI/UX Designer" },
-      type: { fr: "CDI" },
-      period: { fr: "Mars 2024 - Présent" },
+      id: 'cross-the-ages',
+      company: { fr: 'Cross the Ages', en: 'Cross the Ages' },
+      role: { fr: 'UI/UX Designer', en: 'UI/UX Designer' },
+      type: { fr: 'CDI', en: 'Full-time' },
+      period: { fr: 'Depuis Mars 2024 — Marseille', en: 'Since March 2024 — Marseille' },
       description: {
-        fr: "Direction de l'intégralité de l'UI/UX sur le jeu Arise (Marseille).",
+        fr: 'Direction de l\'intégralité de l\'UI/UX.',
+        en: 'Management of all UI/UX aspects.',
       },
-      techs: ["Figma", "Unity", "Jira"],
+      techs: ['Figma', 'Unity'],
       isHighlighted: true,
       details: {
-        context: {
-          fr: "Supervision de la conception et de la livraison des interfaces du jeu dans le respect des délais.",
-        },
         tasks: {
           fr: [
-            "Direction de la conception ergonomique et visuelle de l'ensemble des interfaces",
-            "Garantie de la qualité finale et du respect des contraintes de production",
-            "Collaboration étroite avec les équipes de développement pour l'intégration",
+            'Responsable de la conception, de la qualité et de la production dans les délais impartis des éléments d\'interface utilisateur pour le jeu.',
           ],
-        },
-        env: {
-          fr: "Figma / Unity / Jira",
+          en: [
+            'Responsible for the design, quality, and timely production of user interface elements for the game.',
+          ],
         },
       },
     },
     {
-     id: "artefacts-studio",
-    company: { fr: "Artefacts Studio" },
-    role: { fr: "UI/UX Designer" },
-    type: { fr: "CDD" },
-    period: { fr: "2022 - 2023" },
-    description: {
-      fr: "Conception et intégration des interfaces pour Le Maître du Donjon de Naheulbeuk (Lyon).",
-    },
-    techs: ["Figma", "Unity", "Photoshop", "Illustrator"],
-    details: {
-      fr: "UI/UX Designer",
-    },
-    tasks: {
-      fr: [
-        "Réalisation de wireframes et production des assets graphiques",
-        "Intégration directe des éléments d'interface sur le moteur Unity",
-        "Optimisation des assets et prise en charge du support multi-input (Clavier/Souris & Manette)",
-      ],
-    },
-    env: {
-      fr: "Unity / Figma / Photoshop / Illustrator",
-    },
-  },
-  {
-    id: "smart-tales-freelance",
-    company: { fr: "Smart-Tales & Freelance" },
-    role: { fr: "UI Designer & 2D Artist" },
-    type: { fr: "Freelance / Stage" },
-    period: { fr: "2020 - 2022" },
-    description: {
-      fr: "Projets de jeu vidéo (My Universe: My Baby) à Nîmes et prestations graphiques pour studios indépendants.",
-    },
-    techs: ["Photoshop", "Illustrator", "Figma"],
-    details: {
-      fr: "UI Designer",
-    },
-    tasks: {
-      fr: [
-        "Amélioration des parcours utilisateurs, polissage visuel et accessibilité des interfaces",
-        "Prestations graphiques sur mesure pour 2 à 3 studios indés",
-        "Création de charte graphique et d'assets Twitch (Branding, Overlays, Alertes, Emotes, Badges)",
-      ],
-    },
-    env: {
-      fr: "Photoshop / Illustrator / Figma",
-    },
-  },
-],
-education: [
-  {
-    school: { fr: "Artfx Montpellier" },
-    degree: { fr: "Master Game Art" },
-    period: "2016 - 2018",
-  },
-  {
-    school: { fr: "La Grande Tourrache (La Garde)" },
-    degree: { fr: "BTS Design Graphique" },
-    period: "2011 - 2014",
-  },
-],
-  hobbies: [
-    {
-      title: { fr: "Peinture sur figurines" },
+      id: 'artefacts-studio',
+      company: { fr: 'Artefacts Studio', en: 'Artefacts Studio' },
+      role: { fr: 'UI/UX Designer — Le Maître du Donjon de Naheulbeuk', en: 'UI/UX Designer — The Dungeon of Naheulbeuk' },
+      type: { fr: 'CDI / Projet', en: 'Full-time / Project' },
+      period: { fr: '2022 - 2023 — Lyon', en: '2022 - 2023 — Lyon' },
+      description: {
+        fr: 'Réalisation de wireframes et production d\'assets graphiques pour le jeu.',
+        en: 'Creation of wireframes and production of graphic assets for the game.',
+      },
+      techs: ['Unity', 'Figma', 'Photoshop'],
+      details: {
+        tasks: {
+          fr: [
+            'Réalisation de wireframes et production des assets graphiques jusqu\'à leur intégration sur le moteur Unity',
+            'Optimisation d\'assets et support multi-input (KBM / Pad)',
+          ],
+          en: [
+            'Creation of wireframes and graphic assets up to integration into the Unity engine',
+            'Asset optimization and multi-input support (KBM / Pad)',
+          ],
+        },
+      },
     },
     {
-      title: { fr: "Lecture & Bibliothèques" },
-    },
-    {
-      title: { fr: "Rubik's Cube" },
+      id: 'smart-tales',
+      company: { fr: 'Smart-Tales', en: 'Smart-Tales' },
+      role: { fr: 'Stagiaire 2D Artiste & UI Designer / Freelance', en: '2D Artist & UI Design Intern / Freelance' },
+      type: { fr: 'Stage & Freelance', en: 'Internship & Freelance' },
+      period: { fr: '2020 - 2022 — Nîmes & Freelance', en: '2020 - 2022 — Nîmes & Freelance' },
+      description: {
+        fr: 'Amélioration des parcours utilisateurs et prestations graphiques variées pour des studios indés.',
+        en: 'Improvement of user journeys and various graphic services for indie studios.',
+      },
+      techs: ['Photoshop', 'Illustrator', 'Twitch'],
+      details: {
+        tasks: {
+          fr: [
+            'Stagiaire 2D Artiste et UI design sur My Universe: My Baby : amélioration des parcours utilisateurs, du polissage visuel et de l\'accessibilité des interfaces',
+            'Freelance & Graphiste : diverses prestations pour 2-3 studios indés (Branding, Overlays, Alertes, Emotes, Badges, etc.)',
+          ],
+          en: [
+            '2D Artist and UI design intern on My Universe: My Baby: improved user journeys, visual polishing, and interface accessibility',
+            'Freelance & Graphic Designer: various services for 2-3 indie studios (Branding, Overlays, Alerts, Emotes, Badges, etc.)',
+          ],
+        },
+      },
     },
   ],
-  theme: { preset: "slate" },
+  education: [
+    {
+      school: { fr: 'Artfx, Montpellier', en: 'Artfx, Montpellier' },
+      degree: { fr: 'Master Game Art', en: 'Master\'s Degree in Game Art' },
+      period: '2016 - 2018',
+    },
+    {
+      school: { fr: 'La Grande Tourrache, La Garde', en: 'La Grande Tourrache, La Garde' },
+      degree: { fr: 'BTS Design Graphique', en: 'BTS in Graphic Design' },
+      period: '2011 - 2014',
+    },
+  ],
+  projects: [],
+  hobbies: [
+    {
+      title: { fr: 'Peinture sur figurine', en: 'Miniature painting' },
+    },
+    {
+      title: { fr: 'Livres', en: 'Books' },
+    },
+    {
+      title: { fr: 'Snowboard', en: 'Snowboard' },
+    },
+  ],
+  theme: { preset: 'minimal' },
   labels: {
     sections: {
-      contact: { fr: "CONTACT" },
-      skills: { fr: "COMPÉTENCES & OUTILS" },
-      experience: { fr: "EXPÉRIENCES PROFESSIONNELLES" },
-      education: { fr: "FORMATION" },
-      projects: { fr: "PROJETS" },
-      hobbies: { fr: "LOISIRS" },
+      contact: { fr: 'CONTACT', en: 'CONTACT' },
+      skills: { fr: 'COMPÉTENCES & OUTILS', en: 'SKILLS & TOOLS' },
+      experience: { fr: 'EXPÉRIENCES PROFESSIONNELLES', en: 'WORK EXPERIENCE' },
+      education: { fr: 'FORMATION', en: 'EDUCATION' },
+      projects: { fr: 'PROJETS', en: 'PROJECTS' },
+      hobbies: { fr: 'LOISIRS', en: 'HOBBIES' },
     },
     experience: {
-      mainTasks: { fr: "Missions principales :" },
-      moreTasks: { fr: "autres missions..." },
-      training: { fr: "Formations :" },
-      techEnv: { fr: "Env. technique :" },
-      technologies: { fr: "Technologies" },
+      mainTasks: { fr: 'Missions principales :', en: 'Main tasks:' },
+      moreTasks: { fr: 'autres missions...', en: 'more tasks...' },
+      training: { fr: 'Formations :', en: 'Training:' },
+      techEnv: { fr: 'Env. technique :', en: 'Tech stack:' },
+      technologies: { fr: 'Technologies', en: 'Technologies' },
     },
     actions: {
-      clickHint: { fr: "Cliquez sur les expériences pour voir plus de détails" },
-      switchTheme: { fr: "Changer le thème" },
-      downloadPdf: { fr: "Télécharger le PDF" },
+      clickHint: { fr: 'Cliquez sur les expériences pour voir plus de détails', en: 'Click on experiences to view more details' },
+      switchTheme: { fr: 'Changer le thème', en: 'Switch theme' },
+      downloadPdf: { fr: 'Télécharger le PDF', en: 'Download PDF' },
     },
   },
 }
