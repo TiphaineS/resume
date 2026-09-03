@@ -10,7 +10,7 @@ export const resumeConfig: ResumeConfig = {
       en: 'UI/UX Game Designer',
     },
     subtitle: {
-      fr: 'Plus de 5 ans d'expérience dans l'industrie du jeu vidéo',
+      fr: '+5 ans d\'expérience - Interfaces immersives et accessibles, de la conception à l\'intégration',
       en: 'Over 5 years of experience in the video game industry',
     },
     location: 'Marseille, France',
