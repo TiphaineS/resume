@@ -187,7 +187,7 @@ export const resumeConfig: ResumeConfig = {
       title: { fr: 'Snowboard', en: 'Snowboard' },
     },
   ],
-  theme: { preset: 'minimal' },
+  theme: { preset: 'sleek' },
   labels: {
     sections: {
       contact: { fr: 'CONTACT', en: 'CONTACT' },
