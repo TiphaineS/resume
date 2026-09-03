@@ -97,66 +97,66 @@ export const resumeConfig: ResumeConfig = {
       },
     },
     {
-      id: "artefacts-studio",
-      company: { fr: "Artefacts Studio" },
-      role: { fr: "UI/UX Designer" },
-      type: { fr: "CDD" },
-      period: { fr: "2022 - 2023" },
-      description: {
-        fr: "Conception et intégration des interfaces pour Le Maître du Donjon de Naheulbeuk (Lyon).",
-      },
-      techs: ["Figma", "Unity", "Photoshop", "Illustrator"],
-      context: {
-        fr: "UI/UX Designer",
-},
-        tasks: {
-          fr: [
-            "Réalisation de wireframes et production des assets graphiques",
-            "Intégration directe des éléments d'interface sur le moteur Unity",
-            "Optimisation des assets et prise en charge du support multi-input (Clavier/Souris & Manette)",
-          ],
-        },
-        env: {
-          fr: "Unity / Figma / Photoshop / Illustrator",
-        },
-      },
-    {
-      id: "smart-tales-freelance",
-      company: { fr: "Smart-Tales & Freelance" },
-      role: { fr: "UI Designer & 2D Artist" },
-      type: { fr: "Freelance / Stage" },
-      period: { fr: "2020 - 2022" },
-      description: {
-        fr: "Projets de jeu vidéo (My Universe: My Baby) à Nîmes et prestations graphiques pour studios indépendants.",
-      },
-      techs: ["Photoshop", "Illustrator", "Figma"],
-      context: {
-  fr: "UI Designer",
-},
-        tasks: {
-          fr: [
-            "Amélioration des parcours utilisateurs, polissage visuel et accessibilité des interfaces",
-            "Prestations graphiques sur mesure pour 2 à 3 studios indés",
-            "Création de charte graphique et d'assets Twitch (Branding, Overlays, Alertes, Emotes, Badges)",
-          ],
-        },
-        env: {
-          fr: "Photoshop / Illustrator / Figma",
-        },
-      },
-  ],
-  education: [
-    {
-      school: { fr: "Artfx Montpellier" },
-      degree: { fr: "Master Game Art" },
-      period: "2016 - 2018",
+     id: "artefacts-studio",
+    company: { fr: "Artefacts Studio" },
+    role: { fr: "UI/UX Designer" },
+    type: { fr: "CDD" },
+    period: { fr: "2022 - 2023" },
+    description: {
+      fr: "Conception et intégration des interfaces pour Le Maître du Donjon de Naheulbeuk (Lyon).",
     },
-    {
-      school: { fr: "La Grande Tourrache (La Garde)" },
-      degree: { fr: "BTS Design Graphique" },
-      period: "2011 - 2014",
+    techs: ["Figma", "Unity", "Photoshop", "Illustrator"],
+    context: {
+      fr: "UI/UX Designer",
     },
-  ],
+    tasks: {
+      fr: [
+        "Réalisation de wireframes et production des assets graphiques",
+        "Intégration directe des éléments d'interface sur le moteur Unity",
+        "Optimisation des assets et prise en charge du support multi-input (Clavier/Souris & Manette)",
+      ],
+    },
+    env: {
+      fr: "Unity / Figma / Photoshop / Illustrator",
+    },
+  },
+  {
+    id: "smart-tales-freelance",
+    company: { fr: "Smart-Tales & Freelance" },
+    role: { fr: "UI Designer & 2D Artist" },
+    type: { fr: "Freelance / Stage" },
+    period: { fr: "2020 - 2022" },
+    description: {
+      fr: "Projets de jeu vidéo (My Universe: My Baby) à Nîmes et prestations graphiques pour studios indépendants.",
+    },
+    techs: ["Photoshop", "Illustrator", "Figma"],
+    context: {
+      fr: "UI Designer",
+    },
+    tasks: {
+      fr: [
+        "Amélioration des parcours utilisateurs, polissage visuel et accessibilité des interfaces",
+        "Prestations graphiques sur mesure pour 2 à 3 studios indés",
+        "Création de charte graphique et d'assets Twitch (Branding, Overlays, Alertes, Emotes, Badges)",
+      ],
+    },
+    env: {
+      fr: "Photoshop / Illustrator / Figma",
+    },
+  },
+],
+education: [
+  {
+    school: { fr: "Artfx Montpellier" },
+    degree: { fr: "Master Game Art" },
+    period: "2016 - 2018",
+  },
+  {
+    school: { fr: "La Grande Tourrache (La Garde)" },
+    degree: { fr: "BTS Design Graphique" },
+    period: "2011 - 2014",
+  },
+],
   hobbies: [
     {
       title: { fr: "Peinture sur figurines" },
