@@ -148,13 +148,13 @@ const TECH_REGISTRY = {
   'Storybook': { color: '#FF4785' },
   'Figma': { color: '#F24E1E' },
   'Stripe': { color: '#635BFF' },
-  'Photoshop': { color: '#31A8FF' },
+  'Photoshop': { color: '#0A192F' },
   'Illustrator': { color: '#DD0031' },
   'After Effects': { color: '#000000' },
   'Unity': { color: '#47A248' },
-  'Trello': { color: '#0079BF' },
+  'Trello': { color: '#E91E63' },
   'Jira': { color: '#FFD700' },
-  'Twitch': { color: '#E91E63' },
+  'Twitch': { color: '#FFB6C1' },
 
   // ===== Testing =====
   'Jest': { color: '#C21325' },
