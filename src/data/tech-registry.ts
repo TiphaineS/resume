@@ -150,10 +150,10 @@ const TECH_REGISTRY = {
   'Stripe': { color: '#635BFF' },
   'Photoshop': { color: '#31A8FF' },
   'Illustrator': { color: '#DD0031' },
-  'After Effects': { color: '#47A248' },
-  'Unity': { color: '#000000' },
+  'After Effects': { color: '#000000' },
+  'Unity': { color: '#47A248' },
   'Trello': { color: '#0079BF' },
-  'Jira': { color: '#0052CC' },
+  'Jira': { color: '#1E3A8A' },
 
   // ===== Testing =====
   'Jest': { color: '#C21325' },
