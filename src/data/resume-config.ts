@@ -10,7 +10,7 @@ export const resumeConfig: ResumeConfig = {
       en: 'UI/UX Game Designer',
     },
     subtitle: {
-      fr: 'Designeuse UI/UX de jeux vidéo (5+ ans), je conçois et améliore l’expérience joueurs grâce à des interfaces immersives et accessibles. J'interviens sur tout le cycle du projet : du wireframe à la conception jusqu’à l’intégration.  Quand je ne suis pas devant mon écran, je peins des figurines, je parcours les bibliothèques ou je m'amuse à résoudre des Rubik's Cubes !',
+      fr: 'Plus de 5 ans d'expérience dans l'industrie du jeu vidéo',
       en: 'Over 5 years of experience in the video game industry',
     },
     location: 'Marseille, France',
