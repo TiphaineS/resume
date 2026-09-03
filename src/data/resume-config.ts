@@ -144,7 +144,6 @@ export const resumeConfig: ResumeConfig = {
           fr: "Photoshop / Illustrator / Figma",
         },
       },
-    },
   ],
   education: [
     {
