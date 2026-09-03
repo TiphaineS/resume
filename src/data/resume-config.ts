@@ -120,7 +120,6 @@ export const resumeConfig: ResumeConfig = {
           fr: "Unity / Figma / Photoshop / Illustrator",
         },
       },
-    },
     {
       id: "smart-tales-freelance",
       company: { fr: "Smart-Tales & Freelance" },
