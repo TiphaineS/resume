@@ -43,8 +43,8 @@ export const resumeConfig: ResumeConfig = {
       title: { fr: 'Design & UI', en: 'Design & UI' },
       type: 'badges',
       items: [
-        { name: 'Figma', color: 'orange' },
-        { name: 'Photoshop', color: 'blue' },
+        { name: 'Figma' },
+        { name: 'Photoshop' },
         { name: 'Illustrator' },
         { name: 'After Effects' },
       ],
