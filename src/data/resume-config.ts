@@ -106,7 +106,9 @@ export const resumeConfig: ResumeConfig = {
         fr: "Conception et intégration des interfaces pour Le Maître du Donjon de Naheulbeuk (Lyon).",
       },
       techs: ["Figma", "Unity", "Photoshop", "Illustrator"],
-      details: {
+      context: {
+        fr: "UI/UX Designer",
+},
         tasks: {
           fr: [
             "Réalisation de wireframes et production des assets graphiques",
@@ -129,7 +131,9 @@ export const resumeConfig: ResumeConfig = {
         fr: "Projets de jeu vidéo (My Universe: My Baby) à Nîmes et prestations graphiques pour studios indépendants.",
       },
       techs: ["Photoshop", "Illustrator", "Figma"],
-      details: {
+      context: {
+  fr: "UI Designer",
+},
         tasks: {
           fr: [
             "Amélioration des parcours utilisateurs, polissage visuel et accessibilité des interfaces",
