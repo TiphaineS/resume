@@ -148,6 +148,12 @@ const TECH_REGISTRY = {
   'Storybook': { color: '#FF4785' },
   'Figma': { color: '#F24E1E' },
   'Stripe': { color: '#635BFF' },
+  'Photoshop': { color: '#31A8FF' },
+  'Illustrator': { color: '#FF9A00' },
+  'After Effects': { color: '#9999FF' },
+  'Unity': { color: '#000000' },
+  'Trello': { color: '#0079BF' },
+  'Jira': { color: '#0052CC' },
 
   // ===== Testing =====
   'Jest': { color: '#C21325' },
