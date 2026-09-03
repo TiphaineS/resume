@@ -148,7 +148,7 @@ const TECH_REGISTRY = {
   'Storybook': { color: '#FF4785' },
   'Figma': { color: '#F24E1E' },
   'Stripe': { color: '#635BFF' },
-  'Photoshop': { color: '#0A192F' },
+  'Photoshop': { color: '#1E3A8A' },
   'Illustrator': { color: '#DD0031' },
   'After Effects': { color: '#000000' },
   'Unity': { color: '#47A248' },
