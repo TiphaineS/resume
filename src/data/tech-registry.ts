@@ -153,7 +153,8 @@ const TECH_REGISTRY = {
   'After Effects': { color: '#000000' },
   'Unity': { color: '#47A248' },
   'Trello': { color: '#0079BF' },
-  'Jira': { color: '#1E3A8A' },
+  'Jira': { color: '#FFDB58' },
+  'Twitch': { color: '#FF80AB' },
 
   // ===== Testing =====
   'Jest': { color: '#C21325' },
